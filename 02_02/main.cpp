@@ -6,10 +6,10 @@ using namespace std;
 float GetRecursiveWage(int n) {
 
 	// 最初の時給
-	if (n == 1) return 100.0f;               
+	if (n == 1) return 100.0f;
 
 	// 再帰的に計算
-	return GetRecursiveWage(n - 1) * 2.0f - 50.0f; 
+	return GetRecursiveWage(n - 1) * 2.0f - 50.0f;
 }
 
 int main() {
